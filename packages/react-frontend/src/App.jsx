@@ -16,16 +16,16 @@ function App() {
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
         <div>
-          <h1>Get started</h1>
+          <h1>Leon&apos;s CSC 307 React App</h1>
           <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
+            This is my IE0 starter app with a basic update to <code>App.jsx</code>.
           </p>
         </div>
         <button
           className="counter"
           onClick={() => setCount((count) => count + 1)}
         >
-          Count is {count}
+          I clicked this {count} times
         </button>
       </section>
 
@@ -36,8 +36,8 @@ function App() {
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
+          <h2>Course Links</h2>
+          <p>Quick references for React and Vite</p>
           <ul>
             <li>
               <a href="https://vite.dev/" target="_blank">

@@ -1,16 +1,21 @@
 {
-  "name": "ls",
+  "name": "csc-307-app",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "license": "ISC",
   "author": "",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "start": "npm --workspace react-frontend run dev --",
+    "dev": "npm --workspace react-frontend run dev --",
+    "build": "npm --workspace react-frontend run build",
+    "lint": "npm --workspace react-frontend run lint",
+    "preview": "npm --workspace react-frontend run preview --",
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
-  ,
-"workspaces": [
-  "packages/*"
-]
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }

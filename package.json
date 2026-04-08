@@ -8,7 +8,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "npm --workspace react-frontend run dev --",
+    "start": "npm --workspace react-frontend run start --",
     "dev": "npm --workspace react-frontend run dev --",
     "build": "npm --workspace react-frontend run build",
     "lint": "npm --workspace react-frontend run lint",

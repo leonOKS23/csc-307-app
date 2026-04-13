@@ -10,6 +10,8 @@
   "scripts": {
     "start": "npm --workspace react-frontend run start --",
     "dev": "npm --workspace react-frontend run dev --",
+    "backend:start": "npm --workspace express-backend run start --",
+    "backend:dev": "npm --workspace express-backend run dev --",
     "build": "npm --workspace react-frontend run build",
     "lint": "npm --workspace react-frontend run lint",
     "preview": "npm --workspace react-frontend run preview --",
@@ -17,5 +19,8 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
